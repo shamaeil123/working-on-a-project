@@ -1,0 +1,891 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.image img {
+  width: 40%;
+  height: 40vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px yellow;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.one {
+  margin-top: 100px;
+}
+.one pre {
+  color: white;
+  background-color: blueviolet;
+}
+#color {
+  color: yellow;
+  font-size: 30px;
+}
+#text {
+  color: black;
+  font-size: 25px;
+}
+/* <!-- home work from  css day 3 --> */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: darkblue;
+  gap: 20px;
+}
+.container h1 {
+  color: white;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.image-one {
+  width: 22%;
+  height: 70vh;
+  background-color: rgb(49, 46, 88);
+  margin-top: 110px;
+  position: absolute;
+  margin-left: 40px;
+}
+.image-one img {
+  width: 100%;
+  height: 35vh;
+}
+.image-one h2 {
+  color: orange;
+  padding-left: 15px;
+}
+.image-one p {
+  color: white;
+  padding-left: 15px;
+}
+.image-one pre {
+  color: rgb(174, 167, 167);
+  margin-top: 40px;
+  padding-left: 15px;
+}
+.image-two {
+  width: 22%;
+  height: 70vh;
+  background-color: rgb(49, 46, 88);
+  margin-top: 110px;
+  margin-left: -40px;
+}
+.image-two img {
+  width: 100%;
+  height: 35vh;
+}
+.image-two h2 {
+  color: orange;
+  padding-left: 15px;
+}
+.image-two p {
+  color: white;
+  padding-left: 15px;
+}
+.image-two pre {
+  color: rgb(174, 167, 167);
+  margin-top: 40px;
+  padding-left: 15px;
+}
+.image-three {
+  width: 22%;
+  height: 70vh;
+  background-color: rgb(49, 46, 88);
+  margin-top: 110px;
+}
+.image-three img {
+  width: 100%;
+  height: 35vh;
+}
+.image-three h2 {
+  color: orange;
+  padding-left: 15px;
+}
+.image-three p {
+  color: white;
+  padding-left: 15px;
+}
+.image-three pre {
+  color: rgb(174, 167, 167);
+  margin-top: 40px;
+  padding-left: 15px;
+}
+.image-four {
+  width: 22%;
+  height: 70vh;
+  background-color: rgb(49, 46, 88);
+  margin-top: 110px;
+}
+.image-four img {
+  width: 100%;
+  height: 35vh;
+}
+.image-four h2 {
+  color: orange;
+  padding-left: 15px;
+}
+.image-four p {
+  color: white;
+  padding-left: 15px;
+}
+.image-four pre {
+  color: rgb(174, 167, 167);
+  margin-top: 40px;
+  padding-left: 15px;
+}
+/* css day four home work */
+.cards {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  background: linear-gradient(
+    to right,
+    white,
+    white,
+    rgb(233, 186, 254),
+    white,
+    white
+  );
+}
+.matn {
+  height: 20vh;
+  position: absolute;
+  width: 520px;
+  margin-left: 370px;
+}
+.matn h1 {
+  padding-top: 10px;
+  font-size: 40px;
+  padding-left: 30px;
+}
+.matn p {
+  color: black;
+  padding: 12px 0px 0px 5px;
+}
+.button-one {
+  margin: 120px 0px 0px 450px;
+  position: absolute;
+  width: 350px;
+  height: 10vh;
+  background-color: white;
+  border-radius: 20px;
+}
+.button-one h3 {
+  float: right;
+  padding-top: 15px;
+}
+.button-two {
+  background-color: blueviolet;
+  height: 8vh;
+  width: 180px;
+  margin-top: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+/* .main {
+  display: flex;
+  gap: 2rem;
+} */
+.card-one {
+  width: 22%;
+  height: 65vh;
+  background-color: white;
+  position: absolute;
+  border-radius: 15px;
+  margin: 200px 0px 0px 175px;
+  box-shadow: 1px 1px 4px 1px purple;
+}
+.card-one button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card-one p {
+  padding-top: 30px;
+  color: black;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.card-one h1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.card-one ul {
+  list-style-type: none;
+  line-height: 30px;
+  margin-left: 2 0px;
+}
+.card-one li img {
+  height: 10px;
+  width: 10px;
+}
+.card-one hr {
+  width: 240px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.card-one input {
+  width: 245px;
+  margin: 20px 0px 0px 14px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px -1px 1px 2px rgb(83, 83, 83);
+}
+
+.card-two {
+  width: 22%;
+  height: 65vh;
+  background-color: white;
+  position: absolute;
+  border-radius: 15px;
+  margin: 200px 0px 0px 490px;
+  box-shadow: 1px 1px 4px 1px purple;
+}
+.card-two button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card-two p {
+  padding-top: 30px;
+  color: black;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.card-two h1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.card-two ul {
+  list-style-type: none;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.card-two li img {
+  height: 10px;
+  width: 10px;
+}
+.card-two hr {
+  width: 240px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.card-two input {
+  width: 245px;
+  margin: 10px 0px 0px 14px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px -1px 1px 2px rgb(83, 83, 83);
+}
+.card-three {
+  width: 22%;
+  height: 65vh;
+  background: linear-gradient(rgb(229, 198, 246), white);
+  position: absolute;
+  border-radius: 15px;
+  margin: 200px 0px 0px 800px;
+  box-shadow: 1px 1px 4px 1px purple;
+}
+.card-three button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card-three p {
+  padding-top: 30px;
+  color: black;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.card-three h1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.card-three ul {
+  list-style-type: none;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.card-three li img {
+  height: 10px;
+  width: 10px;
+}
+.card-three hr {
+  width: 240px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.card-three input {
+  width: 245px;
+  margin: 10px 0px 0px 14px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  box-shadow: 1px -1px 1px 2px black (83, 83, 83);
+}
+.purple {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  height: 90vh;
+  background: linear-gradient(rgb(152, 9, 152), rgb(73, 5, 102));
+}
+.purple-1 {
+  margin-left: 150px;
+  margin-top: 160px;
+  width: 40%;
+  height: 40vh;
+}
+.purple-1 h2 {
+  font-size: 50px;
+  color: white;
+}
+.purple-1 p {
+  color: rgb(248, 231, 248);
+  padding-top: 10px;
+}
+.purple-1 a {
+  color: rgb(249, 228, 254);
+  font-size: 40px;
+  line-height: 100px;
+}
+/* day five CSS class home work  */
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(242, 248, 246);
+  margin-top: 50px;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.navbar span {
+  padding: 0px 0px 0px 50px;
+  font-size: 20px;
+}
+.navbar img {
+  width: 50px;
+  height: 5vh;
+  position: absolute;
+}
+#wh {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 1090px;
+  height: 6vh;
+  margin-top: -30px;
+  position: absolute;
+}
+#blu {
+  background-color: rgb(35, 15, 216);
+  color: white;
+  font-size: 20px;
+  border: none;
+  height: 6vh;
+  border-radius: 5px;
+  margin-left: 1150px;
+  position: absolute;
+  margin-top: -30px;
+}
+.blue {
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(197, 240, 247);
+  display: flex;
+  position: relative;
+}
+.blue span {
+  color: blue;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 80px;
+  font-size: 20px;
+}
+.blue bold {
+  color: black;
+}
+.blue h1 {
+  margin-top: 60px;
+  margin-left: 80px;
+  font-size: 30px;
+}
+aside {
+  max-width: 25%;
+  height: auto;
+}
+aside h2 {
+  padding-left: 30px;
+}
+aside ul {
+  list-style-type: none;
+  padding-left: 30px;
+  line-height: 20px;
+}
+.main {
+  max-width: 80%;
+  display: flex;
+  position: relative;
+  margin-top: -385px;
+  margin-left: 310px;
+  height: 30rem;
+}
+.main h2 {
+  position: absolute;
+}
+.main p {
+  color: black;
+  margin-top: 40px;
+  position: absolute;
+  text-align: justify;
+}
+.main video {
+  margin-top: 20px;
+  position: absolute;
+  width: 300px;
+  height: 160px;
+}
+.main h3 {
+  margin-top: 280px;
+}
+.main ul {
+  line-height: 30px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 20px;
+}
+/* day six css class home work */
+.day-six {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background: linear-gradient(white, pink, white);
+}
+.day-six h1 {
+  text-align: center;
+  margin-left: 430px;
+  color: black;
+}
+
+.buttons {
+  width: 600px;
+  height: 60px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 380px;
+  display: inline;
+}
+.buttons #a {
+  background-color: rgb(228, 151, 244);
+  color: black;
+  position: absolute;
+  border-radius: 10px;
+  height: 7vh;
+  width: 15vh;
+  margin-left: -1px;
+  margin-top: 15px;
+  box-shadow: 1px 2px 1px red;
+}
+.buttons #h {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  height: 7vh;
+  width: 15vh;
+  margin-left: 100px;
+  margin-top: 15px;
+  box-shadow: 1px 2px 1px red;
+}
+.buttons #c {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  height: 7vh;
+  width: 15vh;
+  margin-left: 10px;
+  margin-top: 15px;
+  box-shadow: 1px 2px 1px red;
+}
+.buttons #j {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  height: 7vh;
+  width: 32vh;
+  margin-left: 10px;
+  margin-top: 15px;
+  box-shadow: 1px 2px 1px red;
+}
+.on1 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  position: absolute;
+  margin: 100px 0px 0px 100px;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+}
+.on1 img {
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 8px;
+  height: 7rem;
+}
+.on1 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 16px;
+}
+.tw2 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+  position: absolute;
+  margin: 100px 0px 0px 465px;
+}
+.tw2 img {
+  width: 90%;
+  height: 7rem;
+  margin: 7px 0px 0px 15px;
+}
+.tw2 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 16px;
+}
+
+.th3 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+  position: absolute;
+  margin: 100px 0px 0px 830px;
+}
+.th3 img {
+  width: 90%;
+  height: 7rem;
+  margin: 7px 0px 0px 15px;
+}
+.th3 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 14px;
+}
+.fo4 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  position: absolute;
+  margin: 280px 0px 0px 100px;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+}
+.fo4 img {
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 8px;
+  height: 7rem;
+}
+.fo4 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 16px;
+}
+.fi5 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+  position: absolute;
+  margin: 280px 0px 0px 465px;
+}
+.fi5 img {
+  width: 90%;
+  height: 7rem;
+  margin: 7px 0px 0px 15px;
+}
+.fi5 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 16px;
+}
+.si6 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+  position: absolute;
+  margin: 280px 0px 0px 830px;
+}
+.si6 img {
+  width: 90%;
+  height: 7rem;
+  margin: 7px 0px 0px 15px;
+}
+.si6 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 14px;
+}
+.se7 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  position: absolute;
+  margin: 460px 0px 0px 100px;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+}
+.se7 img {
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 8px;
+  height: 7rem;
+}
+.se7 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 16px;
+}
+.se8 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+  position: absolute;
+  margin: 460px 0px 0px 465px;
+}
+.se8 img {
+  width: 90%;
+  height: 7rem;
+  margin: 7px 0px 0px 15px;
+}
+.se8 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 14px;
+}
+.se9 {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(48, 65, 250);
+  border-radius: 10px;
+  position: absolute;
+  margin: 460px 0px 0px 830px;
+}
+.se9 img {
+  width: 90%;
+  height: 7rem;
+  margin: 7px 0px 0px 15px;
+}
+.se9 h2 {
+  padding-left: 20px;
+  color: black;
+  font-size: 14px;
+}
+.imges {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background: linear-gradient(white, rgb(84, 205, 242), white);
+  margin-top: 100px;
+}
+.imges h1 {
+  margin: 10px 0px 0px 560px;
+  position: absolute;
+}
+.imges p {
+  margin: 40px 0px 0px 360px;
+  position: absolute;
+  color: black;
+}
+.f1 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 70px 0px 0px 30px;
+}
+.f1 img {
+  height: 25vh;
+  width: 100%;
+}
+.f1 h2 {
+  text-align: center;
+}
+.f1 h3 {
+  text-align: center;
+}
+.f2 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 70px 0px 0px 330px;
+}
+.f2 img {
+  height: 25vh;
+  width: 100%;
+}
+.f2 h2 {
+  text-align: center;
+}
+.f2 h3 {
+  text-align: center;
+}
+.f3 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 70px 0px 0px 645px;
+}
+.f3 img {
+  height: 25vh;
+  width: 100%;
+}
+.f3 h2 {
+  text-align: center;
+}
+.f3 h3 {
+  text-align: center;
+}
+.f4 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 70px 0px 0px 945px;
+}
+.f4 img {
+  height: 25vh;
+  width: 100%;
+}
+.f4 h2 {
+  text-align: center;
+}
+.f4 h3 {
+  text-align: center;
+}
+.f5 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 310px 0px 0px 30px;
+}
+.f5 img {
+  height: 25vh;
+  width: 100%;
+}
+.f5 h2 {
+  text-align: center;
+}
+.f5 h3 {
+  text-align: center;
+}
+.f6 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 310px 0px 0px 330px;
+}
+.f6 img {
+  height: 25vh;
+  width: 100%;
+}
+.f6 h2 {
+  text-align: center;
+}
+.f6 h3 {
+  text-align: center;
+}
+.f7 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 310px 0px 0px 645px;
+}
+.f7 img {
+  height: 25vh;
+  width: 100%;
+}
+.f7 h2 {
+  text-align: center;
+}
+.f7 h3 {
+  text-align: center;
+}
+.f8 {
+  height: 35vh;
+  width: 22%;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  margin: 310px 0px 0px 945px;
+}
+.f8 img {
+  height: 25vh;
+  width: 100%;
+}
+.f8 h2 {
+  text-align: center;
+}
+.f8 h3 {
+  text-align: center;
+}
+.exercise {
+  height: 70vh;
+  width: 60%;
+  background: linear-gradient(white, pink, white);
+}
+.exercise img {
+  height: 50vh;
+  width: 100%;
+}
